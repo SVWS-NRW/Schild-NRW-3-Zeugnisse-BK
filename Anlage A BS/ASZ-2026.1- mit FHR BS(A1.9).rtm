@@ -191,7 +191,7 @@ object RepOrt: TppReport
             UserName = 'DBText1'
             AutoSize = True
             Border.mmPadding = 0
-            DataField = 'VornameName'
+            DataField = 'AlleVornamenName'
             DataPipeline = dmPipelines.Schueler
             Font.Charset = DEFAULT_CHARSET
             Font.Color = clBlack
@@ -204,7 +204,7 @@ object RepOrt: TppReport
             mmHeight = 5027
             mmLeft = 246857
             mmTop = 114829
-            mmWidth = 26987
+            mmWidth = 36248
             BandType = 4
             LayerName = Foreground1
           end
@@ -814,8 +814,8 @@ object RepOrt: TppReport
               '0\fnil\fcharset0 Calibri;}}'#13#10'{\colortbl ;\red0\green0\blue0;}'#13#10'{' +
               '\*\generator Riched20 10.0.19041}\viewkind4\uc1 '#13#10'\pard\cf1\b\f0' +
               '\fs24 4. Seite des Zeugnisses f\'#39'fcr <dbtext datapipeline='#39'Schue' +
-              'ler'#39'>AdressAnrede</dbtext> <dbtext datapipeline='#39'Schueler'#39'>Vorna' +
-              'meName</dbtext>\par'#13#10'}'#13#10#0
+              'ler'#39'>AdressAnrede</dbtext> <dbtext datapipeline='#39'Schueler'#39'>AlleV' +
+              'ornamenName</dbtext>\par'#13#10'}'#13#10#0
             RemoveEmptyLines = False
             Stretch = True
             Transparent = True
@@ -999,7 +999,7 @@ object RepOrt: TppReport
             UserName = 'DBText7'
             AutoSize = True
             Border.mmPadding = 0
-            DataField = 'VornameName'
+            DataField = 'AlleVornamenName'
             DataPipeline = dmPipelines.Schueler
             Font.Charset = ANSI_CHARSET
             Font.Color = clBlack
@@ -1012,7 +1012,7 @@ object RepOrt: TppReport
             mmHeight = 5027
             mmLeft = 79904
             mmTop = 10054
-            mmWidth = 26988
+            mmWidth = 36248
             BandType = 4
             LayerName = Foreground2
           end
@@ -1735,7 +1735,7 @@ object RepOrt: TppReport
             UserName = 'DBText6'
             AutoSize = True
             Border.mmPadding = 0
-            DataField = 'VornameName'
+            DataField = 'AlleVornamenName'
             DataPipeline = dmPipelines.Schueler
             Font.Charset = ANSI_CHARSET
             Font.Color = clBlack
@@ -1748,7 +1748,7 @@ object RepOrt: TppReport
             mmHeight = 5027
             mmLeft = 289719
             mmTop = 10054
-            mmWidth = 26988
+            mmWidth = 36248
             BandType = 4
             LayerName = Foreground2
           end
@@ -2185,18 +2185,18 @@ object RepOrt: TppReport
               'en0\blue0;}'#13#10'{\stylesheet{ Normal;}{\s1 heading 1;}}'#13#10'{\*\genera' +
               'tor Riched20 10.0.19041}\viewkind4\uc1 '#13#10'\pard\cf1\b\f0\fs24\lan' +
               'g1031 <dbtext datapipeline='#39'Schueler'#39'>AdressAnrede</dbtext> <dbt' +
-              'ext datapipeline='#39'Schueler'#39'>VornameName</dbtext> \par'#13#10'\b0 Wird ' +
-              'die\par'#13#10'\par'#13#10#13#10'\pard\keepn\s1\qc\b\fs28 Fachhochschulreife\b0\' +
-              'fs24\par'#13#10#13#10'\pard\par'#13#10'zuerkannt. Die Fachhochschulreife ist im ' +
-              'Deutschen und Europ\'#39'e4ischen Qualifikationsrahmen dem Niveau 4 ' +
-              'zugeordnet.\par'#13#10'\par'#13#10'\par'#13#10#13#10'\pard\qj Entsprechend der Vereinb' +
-              'arung \'#39'fcber den Erwerb der Fachhochschulreife in beruflichen B' +
-              'ildungsg\'#39'e4ngen - Beschluss der Kultusministerkonferenz vom 05.' +
-              '06.1998 i.d.F. vom 09.03.2001 - berechtigt dieses Zeugnis in all' +
-              'en L\'#39'e4ndern der Bundesrepublik Deutschland zum Studium an Fach' +
-              'hochschulen.\par'#13#10#13#10'\pard\par'#13#10'Durchschnittsnote\super 1\nosuper' +
-              'sub : \b <dbtext datapipeline='#39'Schueler'#39'>DurchschnittsnoteFHR</d' +
-              'btext>\b0  (In Worten: \b $wortnote$\b0  )\par'#13#10'}'#13#10#0
+              'ext datapipeline='#39'Schueler'#39'>AlleVornamenName</dbtext> \par'#13#10'\b0 ' +
+              'Wird die\par'#13#10'\par'#13#10#13#10'\pard\keepn\s1\qc\b\fs28 Fachhochschulreif' +
+              'e\b0\fs24\par'#13#10#13#10'\pard\par'#13#10'zuerkannt. Die Fachhochschulreife is' +
+              't im Deutschen und Europ\'#39'e4ischen Qualifikationsrahmen dem Nive' +
+              'au 4 zugeordnet.\par'#13#10'\par'#13#10'\par'#13#10#13#10'\pard\qj Entsprechend der Ve' +
+              'reinbarung \'#39'fcber den Erwerb der Fachhochschulreife in beruflic' +
+              'hen Bildungsg\'#39'e4ngen - Beschluss der Kultusministerkonferenz vo' +
+              'm 05.06.1998 i.d.F. vom 09.03.2001 - berechtigt dieses Zeugnis i' +
+              'n allen L\'#39'e4ndern der Bundesrepublik Deutschland zum Studium an' +
+              ' Fachhochschulen.\par'#13#10#13#10'\pard\par'#13#10'Durchschnittsnote\super 1\no' +
+              'supersub : \b <dbtext datapipeline='#39'Schueler'#39'>DurchschnittsnoteF' +
+              'HR</dbtext>\b0  (In Worten: \b $wortnote$\b0  )\par'#13#10'}'#13#10#0
             RemoveEmptyLines = False
             Stretch = True
             Transparent = True

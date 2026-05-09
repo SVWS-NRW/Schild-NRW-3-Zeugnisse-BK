@@ -192,7 +192,7 @@ object RepOrt: TppReport
             UserName = 'DBText1'
             AutoSize = True
             Border.mmPadding = 0
-            DataField = 'VornameName'
+            DataField = 'AlleVornamenName'
             DataPipeline = dmPipelines.Schueler
             Font.Charset = DEFAULT_CHARSET
             Font.Color = clBlack
@@ -205,7 +205,7 @@ object RepOrt: TppReport
             mmHeight = 5027
             mmLeft = 249767
             mmTop = 93398
-            mmWidth = 26988
+            mmWidth = 36248
             BandType = 4
             LayerName = Foreground1
           end
@@ -622,8 +622,8 @@ object RepOrt: TppReport
               '0\fnil\fcharset0 Calibri;}}'#13#10'{\colortbl ;\red0\green0\blue0;}'#13#10'{' +
               '\*\generator Riched20 10.0.19041}\viewkind4\uc1 '#13#10'\pard\cf1\b\f0' +
               '\fs24 4. Seite des Zeugnisses f\'#39'fcr <dbtext datapipeline='#39'Schue' +
-              'ler'#39'>AdressAnrede</dbtext> <dbtext datapipeline='#39'Schueler'#39'>Vorna' +
-              'meName</dbtext>\par'#13#10'}'#13#10#0
+              'ler'#39'>AdressAnrede</dbtext> <dbtext datapipeline='#39'Schueler'#39'>AlleV' +
+              'ornamenName</dbtext>\par'#13#10'}'#13#10#0
             RemoveEmptyLines = False
             Transparent = True
             mmHeight = 6350
@@ -1803,8 +1803,8 @@ object RepOrt: TppReport
               '0\fnil\fcharset0 Calibri;}}'#13#10'{\colortbl ;\red0\green0\blue0;}'#13#10'{' +
               '\*\generator Riched20 10.0.19041}\viewkind4\uc1 '#13#10'\pard\cf1\b\f0' +
               '\fs24 3. Seite des Zeugnisses f\'#39'fcr <dbtext datapipeline='#39'Schue' +
-              'ler'#39'>AdressAnrede</dbtext> <dbtext datapipeline='#39'Schueler'#39'>Vorna' +
-              'meName</dbtext>\par'#13#10'}'#13#10#0
+              'ler'#39'>AdressAnrede</dbtext> <dbtext datapipeline='#39'Schueler'#39'>AlleV' +
+              'ornamenName</dbtext>\par'#13#10'\par'#13#10'}'#13#10#0
             RemoveEmptyLines = False
             Transparent = True
             mmHeight = 6350
@@ -1888,8 +1888,8 @@ object RepOrt: TppReport
               '0\fnil\fcharset0 Calibri;}}'#13#10'{\colortbl ;\red0\green0\blue0;}'#13#10'{' +
               '\*\generator Riched20 10.0.19041}\viewkind4\uc1 '#13#10'\pard\cf1\b\f0' +
               '\fs24 2. Seite des Zeugnisses f\'#39'fcr <dbtext datapipeline='#39'Schue' +
-              'ler'#39'>AdressAnrede</dbtext> <dbtext datapipeline='#39'Schueler'#39'>Vorna' +
-              'meName</dbtext>\par'#13#10'}'#13#10#0
+              'ler'#39'>AdressAnrede</dbtext> <dbtext datapipeline='#39'Schueler'#39'>AlleV' +
+              'ornamenName</dbtext>\par'#13#10'\par'#13#10'}'#13#10#0
             RemoveEmptyLines = False
             Transparent = True
             mmHeight = 6350
