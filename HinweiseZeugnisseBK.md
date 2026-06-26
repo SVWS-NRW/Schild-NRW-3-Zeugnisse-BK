@@ -11,14 +11,12 @@ Gleichzeitig wird (wenn es einen Lernfeldeintrag dort gibt) eine entsprechende F
 Für alle Abschlusszeugnisse muss der Reiter „BK-Abschluss“ in SchILD verwendet werden. Die Noten werden von dort in die Reports übernommen.
 
 #### Fachrichtung und Schwerpunkt
-Im Katalog Fachklassen werden auch die Fachrichtung und der Schwerpunkt eingetragen.\
-Berufsebene 1 bezeichnet die Fachrichtung und Berufsebene 2 den Schwerpunkt der Fachklasse.\
-Die dortigen Eintragungen werden auf die Zeugnisse übernommen.\
-Automatisches Füllen der Einträge erfolgt über den Button „Berufsebenen ermitteln“.
+Im Katalog Fachklassen werden auch Fachbereich, Fachrichtung, Schwerpunkt und Berufsfeld eingetragen.\
+Berufsebene 1: Fachbereich\
+Berufsebene 2: Fachrichtung bzw. Berufsfeld\
+Berufsebene 3: Schwerpunkt der Fachklasse\
+Die dortigen Eintragungen werden auf die Zeugnisse übernommen.
 
-<span style="padding:10px;background-color:#ffc0cb">
-Bitte die Einträge nochmals prüfen.
-</span> 
 
 
 ## Hinweise Anlage A
