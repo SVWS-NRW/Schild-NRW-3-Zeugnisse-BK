@@ -137,6 +137,11 @@ Eine vorzeitige Erfüllung der Schulpflicht der SII (§38 Abs. 4 SchulG) wird au
 Für die Formulare der 2-jährigen Berufsfachschule mit Berufsabschluss muss in der Fachklassentabelle die Berufsbezeichnung mit dem Zusatz „Staatlich geprüfter“ (männliche und weibliche Form) eingetragen sein.  
 Diese ist Bestandteil der Bildungsgangsbezeichnung.
 
+#### Abschlussarbeiten
+Für die Abschlussarbeiten werden eigene Fächer angelegt (z.B. AA1, AA2) und der Fächergruppe *Abschlussarbeit* zugeordnet.
+Die Themen der Arbeiten werden als *Fachbezogene Leistungsentwicklung (Memo)* erfasst.  
+Die Eintragung kann auch über den Gruppenprozess *Details zu Fächern bei Schülern ändern" erfolgen.
+
 #### Fachpraktische Anteile
 Nicht ausreichende Leistungen in den praktischen Anteilen der Bereichsspezifischen Fächern müssen durch eine Fußnote gekennzeichnet werden.  
 Die Fussnote wird gedruckt, wenn der Eintrag *Fachpraktische Anteile ausreichend* im *Akt. Halbjahr* Bereich *Allgemeine Angaben II* auf NEIN steht.
@@ -172,7 +177,69 @@ Die nicht ausreichenden Fächer werden automatisch aufgeführt.
 
 
 ## Hinweise Anlage D
-folgt
+siehe AnleitungBK-Zeugnisse-AnlD.pdf
 
 ## Hinweise Anlage E
-folgt
+
+Fachbereiche:  
+A - Agrarwirtschaft  
+G - Gestaltung  
+E - Ernährung und Versorgungsmanagement  
+I - Informatik  
+S - Sozialwesen  
+T - Technik  
+W - Wirtschaft  
+
+
+|Fachbereich| S | S |A, E, I, T, W|S|A|E|S|W|alle|
+|:--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|**Stunden**| 3.600 | 3.600 |2.400|1.800|1.200|1.200|1.200|1.200|600|
+|**Fachrichtung**| Sozial-pädagogik | Heil-erziehungs-pflege|alle|Heil-pädagogik|Gartenbau, Land-wirtschaft|Groß-haushalt|Moto-pädie|Möbel-handel|Aufbau-bildungs-gänge|
+|Abgangs-zeugnis| E6-1 | E6-2 |E6-3|E6-4|E6-5|E6-5|E6-6|E6-7|E6-8|
+|Versetzungs-zeugnis| E4a-1 | E4a-2 |E4a-3|E4a-4||||||
+|Versetzungs-zeugnis, Zulassung zum Praktikum| E5b-1 | E5b-2 ||||||||
+|Zeugnisanlage mit Ergebnissen zu den Arbeiten| E5bz-1 | E5bz-2 ||||||||
+|Nichtzulassung zum FS-Examen| E4b-1 | E4b-2 |E4b-3|E4b-4||||||
+|Zulassung zum FS-Examen| E5c-1 | E5c-2 ||||||||
+|Mitteilung Nichtzulassung| E4c-1 | E4c-2 |E4c-3|||||||
+|Abschluss-zeugnis ohne FHR| E5-1 | E5-2 |E5-3|E5-4|E5-5|E5-5|E5-6|E5-7|E5-8|
+|Abschluss-zeugnis mit FHR| E7-1 | E7-2 |E7-3|||||||
+|Externen-prüfungs-zeugnis| E8-1 | E8-2 |E8-3|E8-4|E8-5|E8-5||||
+|Zulassung Berufspraxis Externe| E8b-1 | E8b-2 ||||||||
+
+
+#### Zeugnisreports
+- AGZ-20xx.x-FS(Anl E6-1,2,3,4,5,6,7).rtm	
+- AGZ-20xx.x-FS(Anl E6-8) Aufbaubildungsgang.rtm
+- ASZ-20xx.x-FS Extern(Anl E8-3,4,5).rtm
+- ASZ-20xx.x-FS Sozialwesen (Anl E5-1,2 und E7-1,2) mit und ohne FHR.rtm
+- ASZ-20xx.x-FS Sozialwesen Extern(Anl E8-1,2).rtm
+- ASZ-20xx.x-FS(Anl E5-3,4,5,6,7 und E7-3) mit und ohne FHR.rtm
+- ASZ-20xx.x-FS(Anl E5-8) Aufbaubildungsgänge.rtm
+- HJZ-20xx.x-FS (für Vollzeit).rtm
+- JAZ-20xx.x-FS(Anl E4a) mit Versetzungsvermerk.rtm
+- JAZ-20xx.x-FS(Anl E4b) Nichtzulassung Examen.rtm
+- JAZ-20xx.x-FS(Anl E5c) Zulassung Examen.rtm
+- Mitteilung Nichtzulassung 20xx.x- Fachschule (Anl E4c-3).rtm	
+- Mitteilung Nichtzulassung 20xx.x- Fachschule Sozialwesen (Anl E4c-1,2).rtm
+- Z-20xx.x-FS Sozialwesen Extern nach Theorieprüfung (Anl E8b-1,2).rtm
+- Zeugnisanlage Sozialwesen 20xx.x (E5bz-1,2).rtm
+
+
+
+#### Berufsbezeichnung
+In der Fachklassentabelle muss die Berufsbezeichnung mit dem Zusatz „Staatlich geprüfter“ (männliche und weibliche Form) eingetragen sein.  
+Diese ist Bestandteil der Bildungsgangsbezeichnung.
+
+#### Abschlussarbeiten
+Für die Abschlussarbeiten werden eigene Fächer angelegt (z.B. AA1, AA2, AA3) und der Fächergruppe *Abschlussarbeit* zugeordnet.
+Die Themen der Arbeiten werden als *Fachbezogene Bemerkung (Memo)* erfasst.  
+Die Eintragung kann auch über den Gruppenprozess *Details zu Fächern bei Schülern ändern" erfolgen.
+
+#### Projektarbeit
+Für die Projektarbeit wird ebenfalls ein eigenes Fach angelegt, das der Fächergruppe *Projektarbeit* zugeordnet wird. 
+Das genaue Thema wird auch hier als *Fachbezogene Bemerkung* eingetragen.
+
+#### Fachschule Sozialwesen
+- In der Fachrichtung Sozialpädagogik werden die *Wahlfächer* der Fächergruppe *Wahlpflichtbereich* zugeordnet.
+- Die Ergebnisse der Abschlussarbeiten am Ende des theoretischen Ausbildungsteils können durch die *Zeugnisanlage Sozialwesen* ausgewiesen werden. 
