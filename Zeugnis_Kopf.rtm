@@ -1,0 +1,195 @@
+object RepOrt: TppReport
+  AutoStop = False
+  DataPipeline = dmPipelines.EigeneSchule
+  PrinterSetup.BinName = 'Default'
+  PrinterSetup.DocumentName = 'Zeugnis_Kopf.rtm'
+  PrinterSetup.Duplex = dpVertical
+  PrinterSetup.PaperName = 'A4'
+  PrinterSetup.PrinterName = 'Default'
+  PrinterSetup.SaveDeviceSettings = False
+  PrinterSetup.mmMarginBottom = 6350
+  PrinterSetup.mmMarginLeft = 0
+  PrinterSetup.mmMarginRight = 30000
+  PrinterSetup.mmMarginTop = 6350
+  PrinterSetup.mmPaperHeight = 297000
+  PrinterSetup.mmPaperWidth = 210000
+  PrinterSetup.PaperSize = 9
+  Template.FileName = 
+    'C:\SVWS-Arbeitsverzeichnis\SchILD-Reports\BK-Zeugnisse_SchILD3_2' +
+    '026.1\Zeugnis_Kopf.rtm'
+  Template.Format = ftASCII
+  Units = utMillimeters
+  ArchiveFileName = '($MyDocuments)\ReportArchive.raf'
+  DeviceType = 'Screen'
+  DefaultFileDeviceType = 'PDF'
+  EmailSettings.ReportFormat = 'PDF'
+  EmailSettings.ConnectionSettings.MailService = 'SMTP'
+  EmailSettings.ConnectionSettings.WebMail.GmailSettings.OAuth2.AuthStorage = [oasAccessToken, oasRefreshToken, oasEncryptTokens]
+  EmailSettings.ConnectionSettings.WebMail.GmailSettings.OAuth2.RedirectURI = 'http://localhost'
+  EmailSettings.ConnectionSettings.WebMail.GmailSettings.OAuth2.RedirectPort = 0
+  EmailSettings.ConnectionSettings.WebMail.GmailSettings.OAuth2.RefreshTokenLifeSpan = 365
+  EmailSettings.ConnectionSettings.WebMail.Outlook365Settings.OAuth2.AuthStorage = [oasAccessToken, oasRefreshToken, oasEncryptTokens]
+  EmailSettings.ConnectionSettings.WebMail.Outlook365Settings.OAuth2.RedirectURI = 'http://localhost'
+  EmailSettings.ConnectionSettings.WebMail.Outlook365Settings.OAuth2.RedirectPort = 0
+  EmailSettings.ConnectionSettings.WebMail.Outlook365Settings.OAuth2.RefreshTokenLifeSpan = 365
+  EmailSettings.ConnectionSettings.EnableMultiPlugin = False
+  EmailSettings.ConnectionSettings.ConnectionStatusInfo = [csiStatusBar]
+  EmailSettings.DeleteFile = False
+  EmailSettings.Enabled = True
+  LanguageID = 'Default'
+  OpenFile = False
+  OutlineSettings.CreateNode = True
+  OutlineSettings.CreatePageNodes = True
+  OutlineSettings.Enabled = False
+  OutlineSettings.Visible = False
+  ThumbnailSettings.Enabled = True
+  ThumbnailSettings.Visible = True
+  ThumbnailSettings.DeadSpace = 30
+  ThumbnailSettings.PageHighlight.Width = 3
+  ThumbnailSettings.ThumbnailSize = tsSmall
+  PDFSettings.EmbedFontOptions = []
+  PDFSettings.EncryptSettings.AllowCopy = True
+  PDFSettings.EncryptSettings.AllowInteract = True
+  PDFSettings.EncryptSettings.AllowModify = True
+  PDFSettings.EncryptSettings.AllowPrint = True
+  PDFSettings.EncryptSettings.AllowExtract = True
+  PDFSettings.EncryptSettings.AllowAssemble = True
+  PDFSettings.EncryptSettings.AllowQualityPrint = True
+  PDFSettings.EncryptSettings.Enabled = False
+  PDFSettings.EncryptSettings.KeyLength = kl40Bit
+  PDFSettings.EncryptSettings.EncryptionType = etRC4
+  PDFSettings.DigitalSignatureSettings.SignPDF = False
+  PDFSettings.FontEncoding = feAnsi
+  PDFSettings.ImageCompressionLevel = 25
+  PDFSettings.PDFAFormat = pafNone
+  PDFSettings.Layers = False
+  PDFSettings.Outline = False
+  PreviewFormSettings.PageBorder.mmPadding = 0
+  PreviewFormSettings.SinglePageOnly = True
+  RTFSettings.AppName = 'ReportBuilder'
+  RTFSettings.Author = 'ReportBuilder'
+  RTFSettings.DefaultFont.Charset = DEFAULT_CHARSET
+  RTFSettings.DefaultFont.Color = clWindowText
+  RTFSettings.DefaultFont.Height = -13
+  RTFSettings.DefaultFont.Name = 'Arial'
+  RTFSettings.DefaultFont.Style = []
+  RTFSettings.Title = 'Report'
+  TextFileName = '($MyDocuments)\Report.pdf'
+  TextSearchSettings.DefaultString = '<Suchtext>'
+  TextSearchSettings.Enabled = True
+  XLSSettings.AppName = 'ReportBuilder'
+  XLSSettings.Author = 'ReportBuilder'
+  XLSSettings.Subject = 'Report'
+  XLSSettings.Title = 'Report'
+  XLSSettings.WorksheetName = 'Report'
+  CloudDriveSettings.DropBoxSettings.OAuth2.AuthStorage = [oasAccessToken, oasRefreshToken, oasEncryptTokens]
+  CloudDriveSettings.DropBoxSettings.OAuth2.RedirectURI = 'http://localhost'
+  CloudDriveSettings.DropBoxSettings.OAuth2.RedirectPort = 0
+  CloudDriveSettings.DropBoxSettings.OAuth2.RefreshTokenLifeSpan = 365
+  CloudDriveSettings.DropBoxSettings.DirectorySupport = True
+  CloudDriveSettings.DropBoxSettings.SharedResources = True
+  CloudDriveSettings.GoogleDriveSettings.OAuth2.AuthStorage = [oasAccessToken, oasRefreshToken, oasEncryptTokens]
+  CloudDriveSettings.GoogleDriveSettings.OAuth2.RedirectURI = 'http://localhost'
+  CloudDriveSettings.GoogleDriveSettings.OAuth2.RedirectPort = 0
+  CloudDriveSettings.GoogleDriveSettings.OAuth2.RefreshTokenLifeSpan = 365
+  CloudDriveSettings.GoogleDriveSettings.DirectorySupport = False
+  CloudDriveSettings.GoogleDriveSettings.SharedResources = False
+  CloudDriveSettings.OneDriveSettings.OAuth2.AuthStorage = [oasAccessToken, oasRefreshToken, oasEncryptTokens]
+  CloudDriveSettings.OneDriveSettings.OAuth2.RedirectURI = 'http://localhost'
+  CloudDriveSettings.OneDriveSettings.OAuth2.RedirectPort = 0
+  CloudDriveSettings.OneDriveSettings.OAuth2.RefreshTokenLifeSpan = 365
+  CloudDriveSettings.OneDriveSettings.DirectorySupport = True
+  CloudDriveSettings.OneDriveSettings.SharedResources = True
+  Left = 128
+  Top = 8
+  Version = '23.02'
+  mmColumnWidth = 0
+  DataPipelineName = 'EigeneSchule'
+  object ppDetailBand3: TppDetailBand
+    Border.mmPadding = 0
+    PrintHeight = phDynamic
+    mmBottomOffset = 0
+    mmHeight = 46831
+    mmPrintPosition = 0
+    object ppDBText1: TppDBText
+      DesignLayer = ppDesignLayer1
+      UserName = 'DBText1'
+      Border.mmPadding = 0
+      DataField = 'Bezeichnung1'
+      DataPipeline = dmPipelines.EigeneSchule
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Lucida Sans'
+      Font.Size = 14
+      Font.Style = [fsBold]
+      TextAlignment = taCentered
+      Transparent = True
+      WordWrap = True
+      VerticalAlignment = avCenter
+      DataPipelineName = 'EigeneSchule'
+      mmHeight = 27180
+      mmLeft = 9260
+      mmTop = 1323
+      mmWidth = 118798
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppDBImage1: TppDBImage
+      DesignLayer = ppDesignLayer1
+      UserName = 'DBImage1'
+      AlignHorizontal = ahCenter
+      AlignVertical = avCenter
+      MaintainAspectRatio = True
+      RotationAngle = 0
+      Stretch = True
+      Border.mmPadding = 0
+      DataField = 'SchulLogo'
+      DataPipeline = dmPipelines.EigeneSchule
+      GraphicType = 'AutoDetect'
+      OnGetPicture = ReportImageOnGetPicture
+      DataPipelineName = 'EigeneSchule'
+      mmHeight = 26988
+      mmLeft = 127529
+      mmTop = 1323
+      mmWidth = 42598
+      BandType = 4
+      LayerName = Foreground
+    end
+  end
+  object raCodeModule1: TraCodeModule
+    ProgramStream = {
+      01060D54726156617250726F6772616D094368696C645479706502110B50726F
+      6772616D4E616D6506095661726961626C65730B50726F6772616D5479706507
+      0B747450726F63656475726506536F75726365065B70726F6365647572652056
+      61726961626C65733B0D0A7661720D0A2020202020204B6F706674657874203A
+      20537472696E673B0D0A202020202020546578743A20537472696E673B0D0A0D
+      0A626567696E0D0A0D0A656E643B0D0A0001060F5472614576656E7448616E64
+      6C65720B50726F6772616D4E616D650610444254657874314F6E476574546578
+      740B50726F6772616D54797065070B747450726F63656475726506536F757263
+      65067770726F63656475726520444254657874314F6E47657454657874287661
+      7220546578743A20537472696E67293B0D0A626567696E0D0A0D0A2020546578
+      74203A3D2054657874202B202720272B202020456967656E65536368756C655B
+      2742657A656963686E756E6732275D3B0D0A0D0A656E643B0D0A0D436F6D706F
+      6E656E744E616D65060744425465787431094576656E744E616D6506094F6E47
+      657454657874074576656E74494402350000}
+  end
+  object ppDesignLayers1: TppDesignLayers
+    object ppDesignLayer1: TppDesignLayer
+      UserName = 'Foreground'
+      LayerType = ltBanded
+      Index = 0
+    end
+  end
+  object ppParameterList2: TppParameterList
+    object ppArchivierung: TppParameter
+      AutoSearchSettings.LogicalPrefix = []
+      AutoSearchSettings.Mandatory = True
+      AutoSearchSettings.SearchExpression = 'Schildvorgabe'
+      DataType = dtString
+      LookupSettings.DisplayType = dtNameOnly
+      LookupSettings.SortOrder = soName
+      Value = 'Schildvorgabe'
+      UserName = 'Archivierung'
+    end
+  end
+end
