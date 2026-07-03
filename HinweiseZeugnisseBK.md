@@ -234,12 +234,35 @@ Diese ist Bestandteil der Bildungsgangsbezeichnung.
 #### Abschlussarbeiten
 Für die Abschlussarbeiten werden eigene Fächer angelegt (z.B. AA1, AA2, AA3) und der Fächergruppe *Abschlussarbeit* zugeordnet.
 Die Themen der Arbeiten werden als *Fachbezogene Bemerkung (Memo)* erfasst.  
-Die Eintragung kann auch über den Gruppenprozess *Details zu Fächern bei Schülern ändern" erfolgen.
+Die Eintragung kann auch über den Gruppenprozess *Details zu Fächern bei Schülern ändern" erfolgen.  
+
+In der Fachrichtung **Heilpädagogik** ist statt der dritten Abschlussarbeit eine Kollequiumsnote anzugeben. Hierfür wird ein entsprechendes Fach in frt Fächergruppe *Abschlussarbeit* angelegt .
+
 
 #### Projektarbeit
 Für die Projektarbeit wird ebenfalls ein eigenes Fach angelegt, das der Fächergruppe *Projektarbeit* zugeordnet wird. 
 Das genaue Thema wird auch hier als *Fachbezogene Bemerkung* eingetragen.
 
+#### Fachhochschulreife
+Falls die **FHR** zusätzlich vergeben wird, muss diese entsprechend berechnet werden. Das FHR-Zeugnis erscheint dann auf Seite 4 des A3-Zeugnisses.  
+Die Fächer, die in die FHR-Note eingehen, müssen in den Facheinstellungen als Gewichtung eine 1 bei allgemeinbildendem Abschluss haben, die anderen Fächer müssen eine Gewichtung 0 eingetragen haben.  
+Fächer mit der Gewichtung >0 werden mit einem * gekennzeichnet und eine entsprechende Fußnote wird auf Seite 2 des Abschlusszeugnisses ausgewiesen.
+
+
 #### Fachschule Sozialwesen
 - In der Fachrichtung Sozialpädagogik werden die *Wahlfächer* der Fächergruppe *Wahlpflichtbereich* zugeordnet.
 - Die Ergebnisse der Abschlussarbeiten am Ende des theoretischen Ausbildungsteils können durch die *Zeugnisanlage Sozialwesen* ausgewiesen werden. 
+- Für die Ausweisung der Noten des Fachpraktischen Teils sind drei Fächer einzulegen und der Fächergruppe *Berufspraktikum* zuzuweisen.
+	* Berufspraktische Leistungen
+	* Kolloquium
+	* Gesamtnote
+- Das Bestehen der beiden Prüfungsteile muss im Zeugnis mit jeweils einem Datum versehen werden. Hier gibt es zwei Möglichkeiten:
+	* Es werden zwei Vermerke mit der Art *Theorieprüfung Fachschule* und *Praxisteil Fachschule* angelegt. Das Datum dieser Vermerke wird im Zeugnis ausgegeben.
+	* Werden diese zwei Vermerke nicht gefunden, gibt es eine einnmalige (nicht individuelle) Abfrage beim Druckauftrag.
+	
+#### Externenprüfung
+Hier sind auf dem Abschlusszeugnis nur die 3 Fächer für die Abschlussarbeiten mit Noten aufzuführen.
+
+Im **Sozialwesen** wird zusätzlich zu den drei Fächern der Abschlussarbeiten in der gleichen Fächergruppe noch ein weiteres Fach *Thema der Praktischen Prüfung* für die mündliche Prüfung (Thema ebenfalls als fachbezogene Bemerkung) angelegt.
+Der fachpraktische Teil wird wie beim "normalen" Abschlusszeugnis ausgewiesen.
+	
